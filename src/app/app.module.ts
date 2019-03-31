@@ -10,7 +10,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GithubService } from './github.service';
 import {ProfileRequestService} from './profile-request.service';
+import { RouterModule, Routes } from '@angular/router';
 
+const routes: Routes = [
+  {path: 'dashboard', component: DashboardComponent }
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +26,7 @@ import {ProfileRequestService} from './profile-request.service';
     MDBBootstrapModule.forRoot(),
     FormsModule,
     HttpClientModule,
+    RouterModule.forRoot(routes)
 
   ],
   // providers: [ GithubService, ProfileRequestService],
