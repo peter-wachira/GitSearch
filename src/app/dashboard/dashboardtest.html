@@ -22,12 +22,42 @@
 </div>
 
 
-<div *ngFor="let repo of repos;">
-    <p>Repo Id: {{repo.id}}</p>
-    <p>Repository Name: {{repo.name}}</p>
-    <p>Repo link: {{repo.html_url}}</p>
-</div
->
+<div class="col-md-4" *ngFor="let repo of repos;">
+
+    <div class="card">
+        <!-- Card content -->
+        <div class="card-body ">
+          <!-- Title -->
+          <h4 class="card-title animated fadeInRight" ><p class="text-info">  {{users.login}}</p></h4>
+          <hr>
+          <!-- Text -->
+          <ul *ngFor="let repo of repos;" class=" card-text list-group list-group-flush">
+              <li class="list-group-item animated fadeInRight"> <i class="fas fa-user-friends"></i> Repo ID: {{repo.id}}</li>
+    
+              <li class="list-group-item animated fadeInRight"> <i class="fas fa-users f0c0"></i> Repo Name: {{repo.name}}</li>
+    
+              <li class="list-group-item animated fadeInRight"> <i class="fas fa-folder-open"></i> Repo Description: {{repo.description}}</li>
+            </ul>
+        </div>
+        <!-- Card footer -->
+        <div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+          <ul class="list-unstyled list-inline font-small">
+              <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">  Checkout on Github
+                <i class="fas fa-fighter-jet"></i>
+              </a>
+          </ul>
+        </div>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
     <img  src='{{users.avatar_url}}'>
     <p>Following {{users.followers}}</p>
     <p>Following {{users.following}}</p>

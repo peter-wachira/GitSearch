@@ -93,8 +93,8 @@
                 <i class="fas fa-search ml-2 animated wobble infinite"></i>
               </a>
             </div>
-            <div class="mb-4">
-              <a target="_blank" class="btn btn-outline-white btn-lg" type="button" (click)="getrepos()" > Show Repos 
+            <div class="form-group mb-4">
+              <a target="_blank" class="btn btn-outline-white btn-lg" type="button" (click)="getRepos()" > Show Repos 
                 <i class="fas fa-search ml-2 animated wobble infinite"></i>
               </a>
             </div>
@@ -164,7 +164,7 @@
   <!-- Card -->
             <!-- card end -->
             <!-- CTA -->
-            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">Checkout on Github
+            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">  Checkout on Github
               <i class="fas fa-fighter-jet"></i>
             </a>
           </div>
@@ -181,16 +181,37 @@
       <!--Section: Main features & Quick Start-->
       <section>
 
-        <h3 class="h3 text-center mb-5">Found Repositories</h3>
+        <h3 class="h3 text-center mb-5 text-info animated fadeInRight">Found Repositories</h3>
 
         <!--Grid row-->
         <div class="row wow fadeIn">
-<div class="row">
-<div class="col-md-4">.ssmassjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
-<div class="col-md-4">annnnnnnnnnnnnnnn.col-md-4</div>
-<div class="col-md-4">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.col-md-4</div>
-</div>
+            <div class="col-md-4 card" *ngFor="let repo of repos;">
 
+                <!-- <div class="card"> -->
+                    <!-- Card content -->
+                    <div class="card-body ">
+                      <!-- Title -->
+                      <h4 class="card-title animated fadeInRight" ><p class="text-info">  {{users.login}}</p></h4>
+                      <hr>
+                      <!-- Text -->
+                      <ul class=" card-text list-group list-group-flush">
+                          <li class="list-group-item animated fadeInRight"> <i class="fas fa-fingerprint"></i> Repo ID: {{repo.id}}</li>
+                
+                          <li class="list-group-item animated fadeInRight"> <i class="fas fa-globe-americas"></i> Repo Name: {{repo.name}}</li>
+                
+                          <li class="list-group-item animated fadeInRight"> <i class="fas fa-file-signature"></i> Repo Description: {{repo.description}}</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+                      <ul class="list-unstyled list-inline font-small">
+                          <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">  Checkout on Github
+                            <i class="fas fa-fighter-jet"></i>
+                          </a>
+                      </ul>
+                    </div>
+                  <!-- </div> -->
+        </div>
         </div>
         <!--/Grid row-->
 
@@ -224,35 +245,35 @@
 
     <!-- Social icons -->
     <div class="pb-4">
-      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+      <a href="https://www.facebook.com/" target="_blank">
         <i class="fab fa-facebook-f mr-3"></i>
       </a>
 
-      <a href="https://twitter.com/MDBootstrap" target="_blank">
+      <a href="https://twitter.com/" target="_blank">
         <i class="fab fa-twitter mr-3"></i>
       </a>
 
-      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+      <a href="https://www.youtube.com/" target="_blank">
         <i class="fab fa-youtube mr-3"></i>
       </a>
 
-      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+      <a href="https://plus.google.com/" target="_blank">
         <i class="fab fa-google-plus-g mr-3"></i>
       </a>
 
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
+      <a href="https://dribbble.com/" target="_blank">
         <i class="fab fa-dribbble mr-3"></i>
       </a>
 
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
+      <a href="https://pinterest.com/" target="_blank">
         <i class="fab fa-pinterest mr-3"></i>
       </a>
 
-      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+      <a href="https://github.com/" target="_blank">
         <i class="fab fa-github mr-3"></i>
       </a>
 
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
+      <a href="http://codepen.io/" target="_blank">
         <i class="fab fa-codepen mr-3"></i>
       </a>
     </div>
@@ -261,7 +282,7 @@
     <!--Copyright-->
     <div class="footer-copyright py-3">
       © 2019 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+      <a href="#" target="_blank"> Peter Wachira </a>
     </div>
     <!--/.Copyright-->
 
