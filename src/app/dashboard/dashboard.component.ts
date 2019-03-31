@@ -29,7 +29,7 @@ public getRepos(event: any) {
   let promise = new Promise((resolve , reject) => {
    this.githubService.getRepos (this.userName).toPromise().then(response => {
      this.repos = response; this.loading = false; // this will push all data to array [repo]
-      resolve();
+      resolve();  
     },
     error => {
       this.errorMessage = 'An error was encountered';
