@@ -7,14 +7,14 @@ import { AppComponent } from './app.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
-
+import { GithubService } from './github.service';
+import {ProfileRequestService} from './profile-request.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,8 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     MDBBootstrapModule.forRoot(),
     FormsModule,
     HttpClientModule,
+
   ],
-  providers: [],
+  // providers: [ GithubService, ProfileRequestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
