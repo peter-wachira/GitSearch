@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { GithubService } from './github.service';
 import {ProfileRequestService} from './profile-request.service';
 import { RouterModule, Routes } from '@angular/router';
+import { SweetAlertService } from './sweet-alert.service';
 
 const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent }
@@ -30,6 +31,7 @@ const routes: Routes = [
 
   ],
   // providers: [ GithubService, ProfileRequestService],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
