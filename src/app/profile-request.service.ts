@@ -5,12 +5,10 @@ import { Observable } from 'rxjs/Rx';
 import { user } from './user';
 import {environment} from '../environments/environment';
 
-
 @Injectable()
 
 export class ProfileRequestService {
 
-  
 
   // tslint:disable-next-line:no-inferrable-types
   baseURL: string = 'https://api.github.com';
