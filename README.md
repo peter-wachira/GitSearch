@@ -9,6 +9,7 @@ This project was generated with Angular CLI version 7.3.6. This is a web app tha
 
 ## Behaviour Driven Development(BDD)
 
+
 | Input                        | Ouput                                                                                            |
 |--------------------------    |----------------------------------------------------------------------------------------------    |
 | Clicks search user    | Users details will be displayed                  |
@@ -16,6 +17,7 @@ This project was generated with Angular CLI version 7.3.6. This is a web app tha
 
 
 ## Setup/Installation requirements
+
 
 - Clone  or download and unzip the repository from github, [https://github.com/peter-wachira/GitSearch.git](https://github.com/peter-wachira/GitSearch.git).
 - If you have git Use this command `git clone *` to clone the project.
