@@ -4,16 +4,16 @@
 #### By **Peter Wachira**
 
 ## Description
-- An application that enables users to add quotes,delete quotes.You can also be able to see already existing and there author and can upvote and downvote quotes.
+- 
+This project was generated with Angular CLI version 7.3.6. This is a web app that allows users to search a github username and the users repositories will be displayed alongside his profile details.
 
 ## Behaviour Driven Development(BDD)
 
 | Input                        | Ouput                                                                                            |
 |--------------------------    |----------------------------------------------------------------------------------------------    |
-| User clicks Post  Quote     | Quote form displays with input fields for Author, Publisher                  |
-| User Clicks Delete           | The quote is purged from view             |
-| User clicks Upvote        |   upvote is incremented value by   1 on each click      |
-| User clicks Downvote     | downvote is decremented value by 1 on each click     |
+| Clicks search user    | Users details will be displayed                  |
+| Clicks Search repos         | User Repositories are displayed             |
+
 
 ## Setup/Installation requirements
 
@@ -23,7 +23,7 @@
 
 ## Live Demo
 To view the page click on the link below
-* [https://peter-wachira.github.io/Quotes-/](*)
+* [https://gtracer.netlify.com/](*)
 
 ## Technologies Used
 - Angular CLI
