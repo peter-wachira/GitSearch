@@ -11,12 +11,12 @@ export class ProfileRequestService {
 
 
   // tslint:disable-next-line:no-inferrable-types
-  baseURL: string = 'https://api.github.com';
+  fromURL: string = 'https://api.github.com';
   constructor(private http: HttpClient) {
   }
 
   getUsers(userName: string): Observable<user[]> {
-    return this.http.get<user[]>(this.baseURL + '/users/' + userName);
+    return this.http.get<user[]>(this.fromURL + '/users/' + userName);
 
 }
 
