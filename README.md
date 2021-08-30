@@ -4,7 +4,7 @@
 #### By **Peter Wachira**
 
 ## Description
-- 
+
 This project was generated with Angular CLI version 7.3.6. This is a web app that allows users to search a github username and the users repositories will be displayed alongside his profile details.
 
 ## Behaviour Driven Development(BDD)
