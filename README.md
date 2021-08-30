@@ -31,8 +31,10 @@ This project was generated with Angular CLI version 7.3.6. This is a web app tha
 
 | Input                        | Ouput                                                                                            |
 |--------------------------    |----------------------------------------------------------------------------------------------    |
-| Clicks search user    | Users details will be displayed                  |
-| Clicks Search repos         | User Repositories are displayed             |
+| Clicks Search user    | Users details will be retrieved and  displayed                  |
+| Clicks Search repos         | User Repositories are retrieved and displayed             |
+| Types user name       | User Repositories are retrieved and displayed             |
+
 
 
 ## Installation 
@@ -72,5 +74,9 @@ To view the page click on the link below
 
 - Make contributions to the code.
 
+
 ## License
 - This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira](https://github.com/peter-wachira)
+
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
+
