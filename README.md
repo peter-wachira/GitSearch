@@ -13,10 +13,10 @@
 
 ## TOC
 
-- [Setup](#Setup)
-- [Requirements](#Behaviour)
+- [Setup](#Installation)
+- [Requirements](#Description)
 - [Live Demo](#Live)
-- [Known Bugs](#Known)
+- [Known Bugs](#extras)
 - [Extras](#extras)
 
 
@@ -35,7 +35,7 @@ This project was generated with Angular CLI version 7.3.6. This is a web app tha
 | Clicks Search repos         | User Repositories are displayed             |
 
 
-## Setup 
+## Installation 
 
 
 - Clone  or download and unzip the repository from github, [https://github.com/peter-wachira/GitSearch.git](https://github.com/peter-wachira/GitSearch.git).
