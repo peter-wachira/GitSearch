@@ -46,7 +46,7 @@ This project was generated with Angular CLI version 7.3.6. This is a web app tha
 
 ## Live Demo
 To view the page click on the link below
-* [https://gtracer.netlify.com/](*)
+[https://gtracer.netlify.com/](*)
 
 
 
