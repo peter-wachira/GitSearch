@@ -14,7 +14,7 @@
 ## TOC
 
 - [Setup](#Setup)
-- [Requirements](#Behaviour))
+- [Requirements](#Behaviour)
 - [Live Demo](#Live)
 - [Known Bugs](#Known)
 - [Extras](#extras)
