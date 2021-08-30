@@ -34,10 +34,15 @@ To view the page click on the link below
 - Angular CLI
 
 ## Known Bugs
-- There are no known bugs currently. The page works as expected.
+
+- There are no known bugs currently. 
+- Quick note that The page loads a bit slow due to the hosting, kindly be a little patient everything works just fine.
+- There are currently no tests done for this project
+- The project is currently not being maintaines any more 
 
 ## Support and Contact Details
-- For any comments,suggestions,feedback or inquiries, contact me via email: `pwachira900@gmail.com`
+
+- For any comments,suggestions,feedback or inquiries, contact me via email: `pwachira900@gmail.com` or drop me a message at https://peter-wachira.com
 
 
 - Make contributions to the code.
