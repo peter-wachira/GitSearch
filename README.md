@@ -2,6 +2,10 @@
 # GTRACER
 #### GTRACER, April 1st 2019
 #### By **Peter Wachira**
+![](screenshots/screenshotang.png)
+![](screenshots/screenshotang1.png)
+
+
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
