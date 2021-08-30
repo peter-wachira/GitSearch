@@ -3,6 +3,25 @@
 #### GTRACER, April 1st 2019
 #### By **Peter Wachira**
 
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+
+
+
+## TOC
+
+- [Setup](#Setup)
+- [Requirements](#Behaviour Driven Development(BDD))
+- [Live Demo](#Live Demo)
+- [Known Bugs](#Known Bugs)
+- [Extras](#extras)
+
+
+
+
 ## Description
 
 This project was generated with Angular CLI version 7.3.6. This is a web app that allows users to search a github username and the users repositories will be displayed alongside his profile details.
@@ -16,7 +35,7 @@ This project was generated with Angular CLI version 7.3.6. This is a web app tha
 | Clicks Search repos         | User Repositories are displayed             |
 
 
-## Setup/Installation requirements
+## Setup 
 
 
 - Clone  or download and unzip the repository from github, [https://github.com/peter-wachira/GitSearch.git](https://github.com/peter-wachira/GitSearch.git).
