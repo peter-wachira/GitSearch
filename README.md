@@ -14,9 +14,9 @@
 ## TOC
 
 - [Setup](#Setup)
-- [Requirements](#Behaviour Driven Development(BDD))
-- [Live Demo](#Live Demo)
-- [Known Bugs](#Known Bugs)
+- [Requirements](#Behaviour))
+- [Live Demo](#Live)
+- [Known Bugs](#Known)
 - [Extras](#extras)
 
 
