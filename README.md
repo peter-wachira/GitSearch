@@ -3,7 +3,7 @@
 #### GTRACER, April 1st 2019
 #### By **Peter Wachira**
 ![](screenshots/screenshotang.png)
-![](screenshots/screenshotang1.png)
+![](screenshots/screenshotang2.png)
 
 
 
